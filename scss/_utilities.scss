@@ -192,6 +192,13 @@ section[id*="section"]:not(#hero-section) {
   bottom: 20%;
 }
 
+.decoration {
+  width: 6rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 // .custom-pointer,
 // .pointer {
 //   position: fixed;

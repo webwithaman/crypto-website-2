@@ -275,6 +275,13 @@ section[id*=section]:not(#hero-section) {
   bottom: 20%;
 }
 
+.decoration {
+  width: 6rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .my-primary-btn {
   border: 1px solid #ffffff;
   box-shadow: 0 0 5px #fff, 0 0 5px #fff inset;
