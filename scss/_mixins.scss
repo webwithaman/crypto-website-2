@@ -1,4 +1,5 @@
 @mixin common-btn-props {
+  cursor: pointer;
   position: relative;
   color: $color-text-primary;
   text-transform: uppercase;
