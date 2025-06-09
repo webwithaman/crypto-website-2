@@ -1,0 +1,30 @@
+// Google Fonts Import
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+// SCSS Variables Start
+
+// Colors
+$color-text-primary: #fff;
+$color-text-secondary: #ff0088;
+$color-text-active: #e84ad2;
+$color-text-dark: #000;
+
+$color-bg-primary: #000000;
+$color-bg-secondary: #1b2028;
+$color-bg-helper: #1b2028;
+
+// Fonts
+$font-primary: "Poppins", sans-serif;
+$font-secondary: "Roboto Mono", monospace;
+
+// SCSS Variables End
+
+// CSS Variables Start
+:root {
+  --height-navbar: 5rem;
+
+  @media screen and (min-width: 991px) {
+    --height-navbar: 8rem;
+  }
+}
+// CSS Variables End
