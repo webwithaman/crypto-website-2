@@ -14,9 +14,8 @@ html {
 
 body {
   font-family: $font-primary;
-  font-family: $font-secondary;
-
   color: $color-text-primary;
+  background: $color-bg-primary;
   overflow-x: hidden;
 }
 
@@ -55,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
+  font-family: $font-primary;
 }
 
 ::-webkit-scrollbar {
@@ -68,7 +67,7 @@ h6 {
 
 ::-webkit-scrollbar-thumb {
   background: $color-text-active;
-  background: linear-gradient(#e84ad2 0%, #4b9be0 100%);
+  background: linear-gradient(#e84ad2, #4b9be0);
 }
 
 @media screen and (max-width: 300px) {

@@ -30,10 +30,10 @@ navLinks.forEach((element) => {
 
 window.addEventListener("scroll", (event) => {
   if (window.scrollY > 50) {
-    document.querySelector("header").classList.add("fixed-on-scroll");
+    document.querySelector("header").classList.add("changes-on-scroll");
     document.querySelector(".scroll-to-top-btn").style.bottom = ".8rem";
   } else {
-    document.querySelector("header").classList.remove("fixed-on-scroll");
+    document.querySelector("header").classList.remove("changes-on-scroll");
     document.querySelector(".scroll-to-top-btn").style.bottom = "-4rem";
   }
 });
@@ -55,6 +55,7 @@ accordionItemsHeaders.forEach((element) => {
       accordionCollapse.style.maxHeight =
         accordionCollapse.lastElementChild.scrollHeight + "px";
       accordionArrow.style.transform = "scaleY(-1)";
+      accordionCollapse.classList.add("show");
     } else {
       accordionCollapse.style.maxHeight = 0;
       accordionCollapse.classList.remove("show");

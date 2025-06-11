@@ -5,13 +5,20 @@
 
 // Colors
 $color-text-primary: #fff;
-$color-text-secondary: #ff0088;
+$color-text-secondary: #a4a9ac;
 $color-text-active: #e84ad2;
 $color-text-dark: #000;
+$color-text-masking-gradient-primary: linear-gradient(90deg, #e84ad2, #4b9be0);
+$color-text-masking-gradient-secondary: linear-gradient(
+  to right,
+  white 30%,
+  #02071022
+);
 
 $color-bg-primary: #000000;
-$color-bg-secondary: #1b2028;
-$color-bg-helper: #1b2028;
+$color-bg-secondary: #020710;
+$color-bg-helper: #2a3039;
+$color-bg-gradient-primary: linear-gradient(90deg, #e84ad2, #4b9be0);
 
 // Fonts
 $font-primary: "Poppins", sans-serif;
@@ -23,7 +30,7 @@ $font-secondary: "Roboto Mono", monospace;
 :root {
   --height-navbar: 5rem;
 
-  @media screen and (min-width: 991px) {
+  @media screen and (min-width: 992px) {
     --height-navbar: 8rem;
   }
 }

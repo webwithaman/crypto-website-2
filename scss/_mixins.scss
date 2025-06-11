@@ -4,12 +4,19 @@
   color: $color-text-primary;
   text-transform: uppercase;
   padding: 0.7rem 1.4rem;
-  letter-spacing: 0.3px;
-  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-weight: 500;
   transition: all 0.3s linear;
   border-radius: 0;
 
   & i {
     padding-left: 0.4rem;
   }
+}
+
+@mixin text-masking($bg-value) {
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent;
+  background: $bg-value;
 }
