@@ -14,18 +14,18 @@
 }
 
 // Custom Follow Pointer
-// .custom-pointer {
-//   position: fixed;
-//   z-index: 200;
-//   width: 2rem;
-//   aspect-ratio: 1;
-//   border-radius: 50%;
-//   mix-blend-mode: difference;
-//   transition: all 0.3s linear;
-//   pointer-events: none;
-//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
-//   background: rgb(255, 255, 255);
-// }
+.custom-pointer {
+  position: fixed;
+  z-index: 200;
+  width: 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: all 0.3s linear;
+  pointer-events: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.189);
+  background: rgb(255, 255, 255);
+}
 
 section[id*="section"]:not(#hero-section) {
   padding-block: 6rem;
